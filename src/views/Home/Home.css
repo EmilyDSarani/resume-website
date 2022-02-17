@@ -1,0 +1,14 @@
+.wrapper {
+    position: relative;
+}
+
+.text{
+    z-index: 9999;
+    background-color: black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
