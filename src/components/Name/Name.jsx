@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './Name.css'
+import styles from './Name.module.css'
 
 export default function Name() {
   return (
-    <div className={styles.wrapper}>  
+    <div>  
     <h1 className={styles.name}>Emily D. Sarani</h1>
     </div>
   )

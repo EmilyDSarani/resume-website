@@ -1,5 +1,5 @@
 /* Video by Frank Cone from Pexels */
-
+/* used https://getavataaars.com/ */
 /* Colors */
 :root{
 --old-mauve: hsla(339, 54%, 28%, 1);
@@ -15,7 +15,7 @@ body{
   background-color: var(--prussian-blue);
 }
 
-header{
+/* header{
   z-index: 9999;
   padding: 10px;
   display: flex;
@@ -24,4 +24,4 @@ header{
   gap: 10px;
   letter-spacing: .1rem;
   font-size: .8em;
-}
+} */

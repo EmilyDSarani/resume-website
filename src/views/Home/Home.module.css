@@ -1,0 +1,41 @@
+/* .frost{
+    width: 900px;
+    height:500px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    float:right;
+    justify-content: center;
+    display: flex;
+    border: 1px solid red;
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    backdrop-filter: "blur(10px)";
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+} */
+.name{
+    z-index: 9999;
+    color: var(--camel);
+    top: 40%;
+    width: 100%;
+    border: 1px solid cyan;
+    padding: 10px;
+    
+}
+.me{
+    height: 200px;
+    width: 200px;
+    border: 1px solid pink;
+    padding: 10px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    color:var(--old-mauve);
+    background-color: var(--persian-green);
+}
+button:hover{
+    color: var(--persian-green);
+    background-color: var(--old-mauve);
+    cursor: pointer;
+}

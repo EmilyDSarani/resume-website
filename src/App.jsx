@@ -19,8 +19,9 @@ export default class App extends Component {
   render() {
     return (
       <>
-      <Router>
-        {/* <header>
+       <Router>
+         {/*
+        <header>
         <NavLink  exact activeClassName= {style.active} className={style.not} to='/'> Home</NavLink>
         <NavLink exact activeClassName = 'active' className="not" to= '/experience'> Work Experience</NavLink>
         <NavLink  exact activeClassName = 'active' className="not" to= '/education'> Education</NavLink>
