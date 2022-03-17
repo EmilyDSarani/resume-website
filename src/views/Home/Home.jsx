@@ -8,10 +8,10 @@ import styles from './Home.css'
 export default class Home extends Component {
     render() {
         return (
-            <div className={styles.wrapper}>
+            <div>
                 <ParticlesMagic />
-                <div className={styles.text}>
-                    <h1> Emily D. Sarani</h1>
+                <div className={styles.frost} >
+                <Name />
                 </div>
             </div>
         )

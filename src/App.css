@@ -1,13 +1,18 @@
 /* Video by Frank Cone from Pexels */
-body{
-  background-color: rgb(211, 255, 217);
-}
-.active{
-  color: rgb(27, 161, 0);
 
+/* Colors */
+:root{
+--old-mauve: hsla(339, 54%, 28%, 1);
+--persian-green: hsla(171, 50%, 40%, 1);
+--camel: hsla(31, 54%, 59%, 1);
+--baby-powder: hsla(100, 100%, 99%, 1);
+--prussian-blue: hsla(208, 42%, 19%, 1);
 }
-.not{
-  color:rgb(160, 5, 165);
+/* Font */
+
+
+body{
+  background-color: var(--prussian-blue);
 }
 
 header{

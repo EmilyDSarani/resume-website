@@ -1,14 +1,6 @@
-.wrapper {
-    position: relative;
-}
-
-.text{
-    z-index: 9999;
-    background-color: black;
-    color: black;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    width: 100%;
+.frost{
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    backdrop-filter: "blur(10px)";
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
 }
 

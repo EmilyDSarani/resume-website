@@ -18,42 +18,42 @@ export default function ParticlesMagic() {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fpsLimit: 120,
+        fpsLimit: 50,
         interactivity: {
           events: {
             onClick: {
               enable: true,
               mode: "push",
             },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
+            // onHover: {
+            //   enable: true,
+            //   mode: "repulse",
+            // },
             resize: true,
           },
           modes: {
             bubble: {
-              distance: 200,
-              duration: 2,
-              opacity: 0.4,
-              size: 20,
+              distance: 500,
+              duration: 4,
+              opacity: 0.2,
+              size: 100,
             },
             push: {
-              quantity: 3,
+              quantity: 2,
             },
             repulse: {
-              distance: 100,
-              duration: 0.4,
+              distance: 50,
+              duration: 50,
             },
           },
         },
         particles: {
           color: {
-            value: "#0d47a5",
+            value: ["#5bc0eb", "#fde74c", "#9bc53d", "#e55934", "#fa7921"],
           },
           links: {
-            color: "#0d47a5",
-            distance: 150,
+            color: "random",
+            distance: 50,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -64,15 +64,15 @@ export default function ParticlesMagic() {
           move: {
             direction: "none",
             enable: true,
-            outMode: "bounce",
-            random: false,
-            speed: 2.4,
-            straight: false,
+            outMode: "bubble",
+            random: true,
+            speed: 1.0,
+            straight: true,
           },
           number: {
             density: {
-              enable: true,
-              area: 800,
+              enable: false,
+              area: 600,
             },
             value: 80,
           },
@@ -80,14 +80,14 @@ export default function ParticlesMagic() {
             value: 0.5,
           },
           shape: {
-            type: "square",
+            type: "polygon",
           },
           size: {
             random: true,
             value: 5,
           },
         },
-        detectRetina: true,
+        detectRetina: false,
       }}
     />
     </div>

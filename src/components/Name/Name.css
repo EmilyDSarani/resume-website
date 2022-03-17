@@ -1,0 +1,13 @@
+.wrapper {
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    z-index: 9999;
+    color: var(--camel);
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}

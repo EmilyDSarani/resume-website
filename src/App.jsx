@@ -20,12 +20,12 @@ export default class App extends Component {
     return (
       <>
       <Router>
-        <header>
+        {/* <header>
         <NavLink  exact activeClassName= {style.active} className={style.not} to='/'> Home</NavLink>
         <NavLink exact activeClassName = 'active' className="not" to= '/experience'> Work Experience</NavLink>
         <NavLink  exact activeClassName = 'active' className="not" to= '/education'> Education</NavLink>
         <NavLink exact activeClassName = 'active' className="not" to= '/portfolio'>Portfolio</NavLink>
-        </header>
+        </header> */}
         
        
         <Switch>
