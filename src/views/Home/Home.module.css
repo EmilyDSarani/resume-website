@@ -1,4 +1,4 @@
-/* .frost{
+.frost{
     width: 900px;
     height:500px;
     padding: 20px;
@@ -11,9 +11,10 @@
     background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
     backdrop-filter: "blur(10px)";
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
-} */
+}
 .name{
     z-index: 9999;
+    position: absolute;
     color: var(--camel);
     top: 40%;
     width: 100%;
@@ -22,6 +23,7 @@
     
 }
 .me{
+    position: static;
     height: 200px;
     width: 200px;
     border: 1px solid pink;
@@ -29,6 +31,7 @@
 }
 
 button{
+    position: static;
     height: 50px;
     width: 100px;
     color:var(--old-mauve);

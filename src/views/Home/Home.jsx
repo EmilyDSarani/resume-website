@@ -6,9 +6,6 @@ import me from '../../assets/me.png'
 import { Link } from 'react-router-dom'
 
 // import Video from '../../components/Video/Video'
-const handleChange = {
-
-}
 
 export default class Home extends Component {
     render() {
