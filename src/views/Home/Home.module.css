@@ -1,37 +1,53 @@
+/* really only use vh (view height) on the outer most div so that you establish the whole canvas for your page */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
 .frost{
+    z-index: 9999;
     width: 900px;
     height:500px;
     padding: 20px;
     margin: 20px;
-    position: relative;
-    float:right;
+    
     justify-content: center;
     display: flex;
     border: 1px solid red;
     background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
     backdrop-filter: "blur(10px)";
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+    flex-direction: column;
+    align-items: center;
 }
-.name{
-    z-index: 9999;
-    position: absolute;
+.name{  
     color: var(--camel);
-    top: 40%;
     width: 100%;
     border: 1px solid cyan;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     
 }
 .me{
-    position: static;
+  
     height: 200px;
     width: 200px;
     border: 1px solid pink;
     padding: 10px;
 }
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
 
 button{
-    position: static;
+    
     height: 50px;
     width: 100px;
     color:var(--old-mauve);

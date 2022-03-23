@@ -10,14 +10,17 @@ import { Link } from 'react-router-dom'
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div className={styles.container}>
                 <ParticlesMagic />
                 <div className={styles.frost}>
+                    <img className={styles.me}src={me} alt='my avatar'/>
                     <h1 className={styles.name}>Emily Sarani</h1>
 
-                    <img className={styles.me}src={me} alt='my avatar'/>
-
+                    <div className={styles.buttonContainer}>
                     <Link to="/portfolio"><button>Portfolio</button></Link>
+                    <Link to="/portfolio"><button>Portfolio</button></Link>
+                    <Link to="/portfolio"><button>Portfolio</button></Link>
+                    </div>
                 {/* <Name /> */}
                 </div>
             </div>
