@@ -17,9 +17,9 @@ export default class Home extends Component {
                     <h1 className={styles.name}>Emily Sarani</h1>
 
                     <div className={styles.buttonContainer}>
-                    <Link to="/portfolio"><button>Portfolio</button></Link>
-                    <Link to="/portfolio"><button>Portfolio</button></Link>
-                    <Link to="/portfolio"><button>Portfolio</button></Link>
+                    <Link to="/portfolio"><button>My Portfolio</button></Link>
+                    <Link to="/experience"><button>My Experience</button></Link>
+                    <Link to="/contact"><button>Connect With Me</button></Link>
                     </div>
                 {/* <Name /> */}
                 </div>

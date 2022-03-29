@@ -34,7 +34,7 @@ export default function ParticlesMagic() {
           modes: {
             bubble: {
               distance: 500,
-              duration: 4,
+              duration: 10,
               opacity: 0.2,
               size: 100,
             },
@@ -42,8 +42,8 @@ export default function ParticlesMagic() {
               quantity: 2,
             },
             repulse: {
-              distance: 50,
-              duration: 50,
+              distance: 100,
+              duration: 0,
             },
           },
         },

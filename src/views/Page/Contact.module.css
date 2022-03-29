@@ -1,4 +1,3 @@
-/* really only use vh (view height) on the outer most div so that you establish the whole canvas for your page */
 .container{
     display: flex;
     align-items: center;
@@ -21,7 +20,7 @@
     flex-direction: column;
     align-items: center;
 }
-.name{  
+.contact{  
     color: var(--camel);
     width: 100%;
     padding: 10px;
@@ -31,12 +30,17 @@
     justify-content: center;
     
 }
-.me{
-  
-    height: 200px;
-    width: 200px;
+.connect{  
+    color: var(--camel);
+    width: 100%;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
 }
+
 .buttonContainer{
     display: flex;
     justify-content: space-between;
