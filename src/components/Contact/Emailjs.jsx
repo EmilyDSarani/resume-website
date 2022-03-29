@@ -3,6 +3,9 @@ import React from 'react'
 import styles from './Email.module.css'
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
+import{ init } from '@emailjs/browser';
+
+init(process.env.USER_ID);
 
 export default function Emailjs() {
 
