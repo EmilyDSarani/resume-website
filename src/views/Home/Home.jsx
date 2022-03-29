@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Name from '../../components/Name/Name'
 import ParticlesMagic from '../../components/Particles/Particles'
 import styles from './Home.module.css'
 import me from '../../assets/me.png'
