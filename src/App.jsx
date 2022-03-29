@@ -8,10 +8,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink,
 } from "react-router-dom";
 
-import style from'./App.css';
+import './App.css';
 
 
 
