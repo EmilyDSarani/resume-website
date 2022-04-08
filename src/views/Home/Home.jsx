@@ -15,7 +15,6 @@ export default class Home extends Component {
                     <img className={styles.me}src={me} alt='my avatar'/>
                     <h1 className={styles.name}>Emily Sarani</h1>
                     <p>Hi! My name is Emily D. Sarani and I am a software developer</p>
-
                     <div className={styles.buttonContainer}>
                     <Link to="/portfolio"><button>My Portfolio</button></Link>
                     <Link to="/experience"><button>My Experience</button></Link>
@@ -24,6 +23,7 @@ export default class Home extends Component {
                 {/* <Name /> */}
                 </div>
             </div>
+            
         )
     }
 }
