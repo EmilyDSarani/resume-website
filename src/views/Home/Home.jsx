@@ -14,6 +14,7 @@ export default class Home extends Component {
                 <div className={styles.frost}>
                     <img className={styles.me}src={me} alt='my avatar'/>
                     <h1 className={styles.name}>Emily Sarani</h1>
+                    <p>Hi! My name is Emily D. Sarani and I am a software developer</p>
 
                     <div className={styles.buttonContainer}>
                     <Link to="/portfolio"><button>My Portfolio</button></Link>

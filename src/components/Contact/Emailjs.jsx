@@ -5,13 +5,14 @@ import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
 import{ init } from '@emailjs/browser';
 
-init(process.env.USER_ID);
+init(process.env.REACT_APP_USER_ID);
+console.log('HEEEEEEEEEEELL', process.env.REACT_APP_USER_ID)
 
 export default function Emailjs() {
 
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, e.target, process.env.USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
           .then((result) => {
             console.log(result.text);
             Swal.fire({
