@@ -23,12 +23,21 @@
 .name{  
     color: var(--camel);
     width: 100%;
-    padding: 10px;
+    padding-bottom: -10px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     
+}
+.bio{
+    color: var(--camel);
+    width: 50%;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .me{
   

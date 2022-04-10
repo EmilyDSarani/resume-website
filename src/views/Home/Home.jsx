@@ -13,8 +13,9 @@ export default class Home extends Component {
                 <ParticlesMagic />
                 <div className={styles.frost}>
                     <img className={styles.me}src={me} alt='my avatar'/>
-                    <h1 className={styles.name}>Emily Sarani</h1>
-                    <p>Hi! My name is Emily D. Sarani and I am a software developer</p>
+                    <h1 className={styles.name}>Emily Sarani (She/Her)</h1>
+                    <p className={styles.bio}>FullStack JavaScript Developer</p>
+                    <p className={styles.bio}> Currently involved with Code for America, Co.Lab and The Collab Lab</p>
                     <div className={styles.buttonContainer}>
                     <Link to="/portfolio"><button>My Portfolio</button></Link>
                     <Link to="/experience"><button>My Experience</button></Link>

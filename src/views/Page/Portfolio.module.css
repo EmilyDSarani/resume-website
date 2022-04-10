@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     flex-direction: column;
 }
 .frost{
@@ -19,15 +18,33 @@
     flex-direction: column;
     align-items: center;
 }
-.name{  
-    color: var(--camel);
+.title{
+    color: var(--baby-powder);
     width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+.header{  
+    color: var(--camel);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
     
+}
+.app{
+    color: var(--old-mauve);
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
 }
 .stackContainer{
   
@@ -39,10 +56,10 @@
     display: flex;
     justify-content: space-between;
     width: 400px;
+    padding-top: 15px;
 }
 
 button{
-    
     height: 50px;
     width: 100px;
     color:var(--old-mauve);

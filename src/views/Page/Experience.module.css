@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
 }
 .frost{
     z-index: 9999;
@@ -16,11 +15,11 @@
     background-image:linear-gradient(to bottom right, rgba(190, 255, 215, 0.356), rgba(177, 8, 8, 0));
     backdrop-filter: "blur(10px)";
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
-.name{  
-    color: var(--camel);
+.header{  
+    color: var(--baby-powder);
     width: 100%;
     padding: 10px;
     display: flex;
@@ -28,6 +27,33 @@
     text-align: center;
     justify-content: center;
     
+}
+.work{
+    color: var(--camel);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+.date{
+    color: var(--old-mauve);
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+.info{
+    color: var(--old-mauve);
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
 }
 .workContainer{
     height: auto;
@@ -38,6 +64,7 @@
     display: flex;
     justify-content: space-between;
     width: 400px;
+    padding-top: 15px;
 }
 
 button{
