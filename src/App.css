@@ -7,17 +7,20 @@ Github icons created by Pixel Perfect */
 
 /* Colors */
 :root{
---old-mauve: hsla(339, 54%, 28%, 1);
---persian-green: hsla(171, 50%, 40%, 1);
---camel: hsla(31, 54%, 59%, 1);
+--sky-blue: hsla(196, 85%, 72%, 1);
+--satin-sheen-gold: hsla(41, 59%, 49%, 1);
+--light-coral: hsla(356, 71%, 73%, 1); 
 --baby-powder: hsla(100, 100%, 99%, 1);
---prussian-blue: hsla(208, 42%, 19%, 1);
+--oxford-blue: rgb(1, 15, 37);
+--persian-plum: hsla(355, 76%, 24%, 1);
+--cadet-blue: rgba(97, 150, 153, 0.705);
+--honeydew: hsla(102, 100%, 96%, 1);
 }
 /* Font */
-
+ 
 
 body{
-  background-color: var(--prussian-blue);
+  background-color: var(--oxford-blue);
 }
 
 /* header{

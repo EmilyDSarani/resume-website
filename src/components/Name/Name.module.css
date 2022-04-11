@@ -5,7 +5,7 @@
 
 .name{
     z-index: 9999;
-    color: var(--camel);
+    color: var(--light-coral);
     position: absolute;
     text-align: center;
     top: 40%;
