@@ -1,4 +1,5 @@
 /* really only use vh (view height) on the outer most div so that you establish the whole canvas for your page */
+@media only screen and (min-width: 200px) and (max-width:3800px){
 .container{
     display: flex;
     align-items: center;
@@ -62,4 +63,6 @@ button:hover{
     color: var(--satin-sheen-gold);
     background-color: var(--persian-plum);
     cursor: pointer;
+}
+
 }
