@@ -1,20 +1,19 @@
 /* really only use vh (view height) on the outer most div so that you establish the whole canvas for your page */
-@media only screen and (min-width: 200px) and (max-width:3800px){
-.container{
+/* .container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
     flex-direction: column;
-}
+} */
 .frost{
     z-index: 9999;
-    width: 900px;
-    height:500px;
-    padding: 20px;
-    margin: 20px;
-    justify-content: center;
+    width: 80%;
+    max-width: 900px;
+    height:80%;
     display: flex;
+    justify-content: center;
     background-image:linear-gradient(to bottom right, var(--cadet-blue), rgba(177, 8, 8, 0));
     backdrop-filter: "blur(10px)";
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
@@ -41,7 +40,7 @@
     justify-content: center;
 }
 .me{
-  
+    
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -64,5 +63,14 @@ button:hover{
     background-color: var(--persian-plum);
     cursor: pointer;
 }
-
+/* refector and get the frost base styles into app.css instead and also you can call two css files into one file */
+/* once v1.0.5 is done, then everything will be fixed, probably */
+@media only screen and (max-width: 540px){
+.buttonContainer{
+    flex-direction: column;
+    align-items: center;
+}
+.frost{
+    height: 90vh;
+}
 }
