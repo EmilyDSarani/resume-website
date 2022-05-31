@@ -7,7 +7,7 @@
     width: 100vw;
     flex-direction: column;
 } */
-.frost{
+/* .frost{
     z-index: 9999;
     width: 80%;
     max-width: 900px;
@@ -19,8 +19,8 @@
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
     flex-direction: column;
     align-items: center;
-}
-.name{  
+} */
+/* .name{  
     color: var(--baby-powder);
     width: 100%;
     padding-bottom: -10px;
@@ -29,8 +29,8 @@
     text-align: center;
     justify-content: center;
     
-}
-.bio{
+} */
+/* .bio{
     color: var(--light-coral);
     width: 50%;
     padding-bottom: 15px;
@@ -44,13 +44,14 @@
     height: 200px;
     width: 200px;
     padding: 10px;
-}
-.buttonContainer{
+} */
+
+/* .buttonContainer{
     display: flex;
     justify-content: space-between;
     width: 400px;
-}
-
+} */
+/* 
 button{
     
     height: 50px;
@@ -62,7 +63,7 @@ button:hover{
     color: var(--satin-sheen-gold);
     background-color: var(--persian-plum);
     cursor: pointer;
-}
+} */
 /* refector and get the frost base styles into app.css instead and also you can call two css files into one file */
 /* once v1.0.5 is done, then everything will be fixed, probably */
 @media only screen and (max-width: 540px){

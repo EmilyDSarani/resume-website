@@ -60,7 +60,7 @@
     padding-top: 15px;
 }
 
-button{
+/* button{
     height: 50px;
     width: 100px;
     color:var(--persian-plum);
@@ -71,8 +71,8 @@ button:hover{
     color: var(--satin-sheen-gold);
     background-color: var(--persian-plum);
     cursor: pointer;
-}
-a{
+} */
+/* a{
     color: var(--baby-powder)
   }
   a:hover{
@@ -83,5 +83,5 @@ a{
   }
   a:active{
     color: var(--sky-blue)
-  }
+  } */
 }
