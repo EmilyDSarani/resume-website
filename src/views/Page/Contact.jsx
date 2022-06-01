@@ -5,31 +5,39 @@ import { Link } from 'react-router-dom'
 import twitter from '../../assets/twitterlogo.png'
 import linkedIn from '../../assets/linkedinlogo.png'
 import github from '../../assets/githublogo.png'
+import { buttonContainerStyles, buttonStyles, containerStyles, frostStyles } from '../../utils/stylesContainer'
+import { headerOneStyles } from '../../utils/stylesGeneral'
 
 
 export default function Contact() {
   return (
-    <div className={styles.container}>
+    <div className={containerStyles}>
         <ParticlesMagic />
-        <div className={styles.frost}>
+        <div className={frostStyles}>
         {/* <Emailjs /> */}
-        <h1 className={styles.connect} >Connect with Me!</h1>
-
-        <div className={styles.logoContainer}>
+        <h1 className={headerOneStyles} >Connect with Me!</h1>
+        {/* display: flex;
+    justify-content: space-between;
+    width: 600px; */}
+        <div className={buttonContainerStyles}>
         <a href="https://twitter.com/emilysarani" target="_blank" rel="noreferrer" >
-        <img className={styles.logo}src={twitter} alt='icon created by Pixel Perfect'/>
+        <img className='h-[100px] w-[100px] p-1.5'src={twitter} alt='icon created by Pixel Perfect'/>
+        <span className='sr-only'>twitter link</span>
         </a>
 
-        <a href="https://www.linkedin.com/in/emily-sarani/" target="_blank" rel="noreferrer" ><img className={styles.logo}src={linkedIn} alt='icon created by Pixel Perfect'/> </a>
+        <a href="https://www.linkedin.com/in/emily-sarani/" target="_blank" rel="noreferrer" ><img className='h-[100px] w-[100px] p-2.5"'src={linkedIn} alt='icon created by Pixel Perfect'/> 
+        <span className='sr-only'>linkedin link</span>
+        </a>
 
         <a href="https://github.com/EmilyDSarani" target="_blank" rel="noreferrer" >
-        <img className={styles.logo}src={github} alt='icon created by Pixel Perfect'/>
+        <img className='h-[100px] w-[100px] p-2.5"'src={github} alt='icon created by Pixel Perfect'/>
+        <span className='sr-only'>github link</span>
         </a>
 
         </div>
 
-        <div className={styles.buttonContainer}>
-            <Link to="/"><button>Home</button></Link>
+        <div className={buttonContainerStyles}>
+            <Link to="/"><button className={buttonStyles}>Home</button></Link>
         </div>
 
         </div>
