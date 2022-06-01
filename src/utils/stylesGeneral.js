@@ -1,0 +1,5 @@
+export const headerOneStyles = 'text-slate-300 text-3xl text-center pb-3 font-mono'
+export const headerTwoStyles = 'text-emerald-500 font-mono text-xl pb-2 text-left'
+export const headerThreeStyles = 'text-stone-300 font-mono text-l pb-2 text-left'
+export const liveStyles = 'text-sky-300 font-mono no-underline hover:underline hover:text-purple-400 hover:font-mono'
+export const repoStyles = 'text-sky-300 font-mono no-underline hover:underline hover:text-emerald-400 hover:font-mono'
