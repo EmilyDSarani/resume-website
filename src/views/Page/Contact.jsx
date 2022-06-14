@@ -1,6 +1,5 @@
 import React from 'react'
 import ParticlesMagic from '../../components/Particles/Particles'
-import styles from './Contact.module.css'
 import { Link } from 'react-router-dom'
 import twitter from '../../assets/twitterlogo.png'
 import linkedIn from '../../assets/linkedinlogo.png'
