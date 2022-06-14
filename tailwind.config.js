@@ -1,7 +1,7 @@
 module.exports = {
   //the pages you want tailwind to work with. Any File types that you want tailwind in
   content: [
-    "./src/**/*.jsx,.js"
+    "./src/**/*.jsx,*.js"
   ],
   //the variables for tailwind. you can change or extend(which creates new ones)
   theme: {
