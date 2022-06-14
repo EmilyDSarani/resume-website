@@ -1,5 +1,5 @@
-@media only screen and (min-width: 200px) and (max-width:3800px){
-.container{
+@media screen and (min-width: 200px) and (max-width:3800px){
+/* .container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,8 @@
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
     flex-direction: column;
     align-items: center;
-}
+} */
+
 .title{
     color: var(--baby-powder);
     width: 100%;
@@ -53,14 +54,14 @@
     width: 600px;
     padding: 10px;
 }
-.buttonContainer{
+/* .buttonContainer{
     display: flex;
     justify-content: space-between;
     width: 400px;
     padding-top: 15px;
-}
+} */
 
-button{
+/* button{
     height: 50px;
     width: 100px;
     color:var(--persian-plum);
@@ -71,8 +72,8 @@ button:hover{
     color: var(--satin-sheen-gold);
     background-color: var(--persian-plum);
     cursor: pointer;
-}
-a{
+} */
+/* a{
     color: var(--baby-powder)
   }
   a:hover{
@@ -83,5 +84,5 @@ a{
   }
   a:active{
     color: var(--sky-blue)
-  }
+  } */
 }
